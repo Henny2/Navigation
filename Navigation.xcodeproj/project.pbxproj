@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		40C55FED2B05C19D009E887D /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FEC2B05C19D009E887D /* NavigationApp.swift */; };
-		40C55FEF2B05C19D009E887D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FEE2B05C19D009E887D /* ContentView.swift */; };
+		40C55FEF2B05C19D009E887D /* NavDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FEE2B05C19D009E887D /* NavDestinationView.swift */; };
 		40C55FF12B05C19F009E887D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C55FF02B05C19F009E887D /* Assets.xcassets */; };
 		40C55FF42B05C19F009E887D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C55FF32B05C19F009E887D /* Preview Assets.xcassets */; };
+		40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFA2B070C46009E887D /* PathNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40C55FE92B05C19D009E887D /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C55FEC2B05C19D009E887D /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
-		40C55FEE2B05C19D009E887D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C55FEE2B05C19D009E887D /* NavDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDestinationView.swift; sourceTree = "<group>"; };
 		40C55FF02B05C19F009E887D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C55FF32B05C19F009E887D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40C55FFA2B070C46009E887D /* PathNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				40C55FEC2B05C19D009E887D /* NavigationApp.swift */,
-				40C55FEE2B05C19D009E887D /* ContentView.swift */,
+				40C55FEE2B05C19D009E887D /* NavDestinationView.swift */,
+				40C55FFA2B070C46009E887D /* PathNavigationView.swift */,
 				40C55FF02B05C19F009E887D /* Assets.xcassets */,
 				40C55FF22B05C19F009E887D /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C55FEF2B05C19D009E887D /* ContentView.swift in Sources */,
+				40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */,
+				40C55FEF2B05C19D009E887D /* NavDestinationView.swift in Sources */,
 				40C55FED2B05C19D009E887D /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
