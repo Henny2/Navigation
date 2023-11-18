@@ -13,6 +13,7 @@
 		40C55FF42B05C19F009E887D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C55FF32B05C19F009E887D /* Preview Assets.xcassets */; };
 		40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFA2B070C46009E887D /* PathNavigationView.swift */; };
 		40C55FFD2B0867FF009E887D /* PathNavigationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */; };
+		40C55FFF2B086B5B009E887D /* PathSavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFE2B086B5B009E887D /* PathSavingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		40C55FF32B05C19F009E887D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40C55FFA2B070C46009E887D /* PathNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNavigationView.swift; sourceTree = "<group>"; };
 		40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNavigationView2.swift; sourceTree = "<group>"; };
+		40C55FFE2B086B5B009E887D /* PathSavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSavingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				40C55FEE2B05C19D009E887D /* NavDestinationView.swift */,
 				40C55FFA2B070C46009E887D /* PathNavigationView.swift */,
 				40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */,
+				40C55FFE2B086B5B009E887D /* PathSavingView.swift */,
 				40C55FF02B05C19F009E887D /* Assets.xcassets */,
 				40C55FF22B05C19F009E887D /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */,
+				40C55FFF2B086B5B009E887D /* PathSavingView.swift in Sources */,
 				40C55FEF2B05C19D009E887D /* NavDestinationView.swift in Sources */,
 				40C55FFD2B0867FF009E887D /* PathNavigationView2.swift in Sources */,
 				40C55FED2B05C19D009E887D /* NavigationApp.swift in Sources */,
