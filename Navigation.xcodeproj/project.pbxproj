@@ -14,6 +14,7 @@
 		40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFA2B070C46009E887D /* PathNavigationView.swift */; };
 		40C55FFD2B0867FF009E887D /* PathNavigationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */; };
 		40C55FFF2B086B5B009E887D /* PathSavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C55FFE2B086B5B009E887D /* PathSavingView.swift */; };
+		40C560012B0AD9EB009E887D /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C560002B0AD9EB009E887D /* CustomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		40C55FFA2B070C46009E887D /* PathNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNavigationView.swift; sourceTree = "<group>"; };
 		40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNavigationView2.swift; sourceTree = "<group>"; };
 		40C55FFE2B086B5B009E887D /* PathSavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSavingView.swift; sourceTree = "<group>"; };
+		40C560002B0AD9EB009E887D /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				40C55FFA2B070C46009E887D /* PathNavigationView.swift */,
 				40C55FFC2B0867FF009E887D /* PathNavigationView2.swift */,
 				40C55FFE2B086B5B009E887D /* PathSavingView.swift */,
+				40C560002B0AD9EB009E887D /* CustomNavBar.swift */,
 				40C55FF02B05C19F009E887D /* Assets.xcassets */,
 				40C55FF22B05C19F009E887D /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C560012B0AD9EB009E887D /* CustomNavBar.swift in Sources */,
 				40C55FFB2B070C46009E887D /* PathNavigationView.swift in Sources */,
 				40C55FFF2B086B5B009E887D /* PathSavingView.swift in Sources */,
 				40C55FEF2B05C19D009E887D /* NavDestinationView.swift in Sources */,
